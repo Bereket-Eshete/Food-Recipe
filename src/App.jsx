@@ -7,7 +7,7 @@ import InnerContainer from "./component/InnerContainer"
 import FoodDetails from "./component/FoodDetails"
 const App=()=> {
  const [foodData,setFoodData]=useState([]) 
- const [foodId,setFoodId]=('')
+ const [foodId,setFoodId]=useState('642583')
   return (
     <div className="App">
       <Nav/>
